@@ -24,9 +24,10 @@ public class iFrames {
    
     driver.findElement(By.xpath(".//*[@id='loginForm']/div/div/input")).click();
     
-
+// Switch To Frame by Name 
     driver.switchTo().frame("mainpanel");
     Thread.sleep(2000);
-    driver.findElement(By.xpath(".//*[@id='navmenu']/ul/li[4]/a")).click();
+    driver.findElement(By.xpath(".//*[@id='navmenu']/ul/li[4]/a"));
 	}
+}
 }
