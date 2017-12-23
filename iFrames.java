@@ -30,3 +30,4 @@ public class iFrames {
     driver.findElement(By.xpath(".//*[@id='navmenu']/ul/li[4]/a")).click();
 	}
 }
+}
